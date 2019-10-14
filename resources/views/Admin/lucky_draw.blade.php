@@ -110,10 +110,10 @@
 
     });
     
-    $("#generateRandom").on('change', function(e){
+    $("#btn_draw").on('click', function(e){
           var generateRandom = $("#generateRandom").val();
-              // alert(generateRandom);
-      if(generateRandom=== "1"){
+              // alert(btn_draw);
+      if(generateRandom === "1"){
         $("#luckyForm").submit();
       }else{
           var prizeType = $("#priceType").val();
@@ -121,12 +121,14 @@
            'type':'GET',
            'url':'/generate_number',
            'data': {prizeType: prizeType},
+
            success:function(data){
-             console.log(data);
               $('#winningNo').val(data[0].winning_number);
+              $("#luckyForm").submit();
            },
+           
            error: function(data){
-             alert('Error'+data);
+             alert('Each user can only win one prize');
            }
 
         });
