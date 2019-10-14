@@ -182,7 +182,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
 
-          <li class="nav-item has-treeview menu-open">
+          <li class="nav-item has-treeview">
             <a href="#" class="nav-link active">
                 <i class="far fa-user"></i>              
                 <p>
@@ -199,7 +199,7 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item has-treeview menu-open">
+          <li class="nav-item has-treeview">
             <a href="/" class="nav-link active">
               <i class="fas fa-award"></i>
               <p>
@@ -216,7 +216,7 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item has-treeview menu-open">
+          <li class="nav-item has-treeview">
             <a href="/" class="nav-link active">
               <i class="fas fa-dice-d6"></i>
               <p>
@@ -233,7 +233,7 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item has-treeview menu-open">
+          <li class="nav-item has-treeview">
             <a href="/" class="nav-link active">
               <i class="fas fa-sort-numeric-up-alt"></i>
               <p>
@@ -250,7 +250,7 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item has-treeview menu-open">
+          <li class="nav-item has-treeview">
             <a href="/" class="nav-link active">
               <i class="fas fa-trophy"></i>
               <p>
